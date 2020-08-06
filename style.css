@@ -1,0 +1,330 @@
+body {
+    width: 100%;
+    max-width: 537px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.links {
+    height: 14px;
+}
+
+.green-rectangle {
+    height: 61px;
+    position: relative;
+    background: #084215;
+}
+
+/* paysage */
+
+.paysage {
+    position: absolute;
+    left: 239px;
+    top: 35px;
+
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    
+    opacity: 0.5;
+}
+
+.logo {
+    position: absolute;
+    left: 259px;
+    top: 10px;
+}
+
+
+
+/* Nav */
+.nav {
+    font-family: 'Quicksand';
+    font-size: 8px;
+    line-height: 11px;
+    font-weight: 500;
+    
+    margin: 8px 0;
+}
+
+.nav-link {
+    position: relative;
+    margin-left: 17px;
+    
+    text-decoration: none;
+    color: #000; 
+    
+    transition: color .2s linear;
+}
+
+.nav-link:after {
+    content: "";
+    width: 100%;
+    height: 1.5px;
+    display: none;
+    
+    background-color: #084215;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav-link:hover {
+    color: #084215;  
+}
+
+.nav-link:hover:after {
+    display: block;
+}
+
+
+
+/* Befunky collage */
+.landscape-title {
+    position: absolute;
+    left: 138px;
+    top: 74px;
+    width: 262px;
+    
+    font-family: 'Quicksand';
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #fff;
+    
+}
+
+.befunky-collage {
+    position: relative;
+    height: 209px;
+}
+
+.collage-cover {
+    position: absolute;
+    width: 537px;
+    height: 209px;
+    top: 0;
+    
+    background: rgba(84, 90, 46, 0.3);
+}
+
+
+
+/* Button */
+.btn {
+    position: absolute;
+    top: 144px;
+    left: 243px;
+    
+    padding: 6px;
+    width: 50px;
+    
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-size: 6px;
+    text-transform: uppercase;
+    font-weight: 500;;
+    
+    background-color: #fff;
+    color: #000;
+    border: #fff 1px solid;
+    
+    transition: background .1s linear, color .1s linear;
+    
+}
+
+.btn:hover {
+    background-color: #084215;
+    color: #fff;
+}
+
+
+
+/* Green square */
+.green-square {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    margin: 38px 0 0 47px;
+
+    background: #084215;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle-2 {
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    
+    box-shadow: inherit;
+}
+
+.green-sqr-title {
+    position: absolute;
+    left: 292px;
+    width: 154px;
+    height: 69px;
+    
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+    color: #084215;
+}
+
+.green-sqr-text {
+    position: absolute;
+    width: 190px;
+    top: 84px;
+    left: 255px;
+    
+    font-family: 'Quicksand';
+    font-size: 12px;
+    text-align: right;
+    color: #084215;
+}
+
+.btn-2 {
+    position: absolute;
+    top: 167px;
+    left: 360px;
+    
+    width: 80px;
+    padding: 6px 3px;
+    
+    text-decoration: none;
+    font-family: 'Quicksand';
+    font-size: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    
+    background-color: #084215;
+    color: #fff;
+    border: #084215 1px solid;
+    
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn-2:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+/* Gallery */
+.our-projects {
+    margin: 65px auto 24px;
+    
+    font-family: 'Quicksand';
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    
+    color: #084215;
+}
+
+.green-sqr-2 {
+    position: relative;
+    width: 142px;
+    height: 142px;
+
+    border: 12px solid #084215;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 35px;
+    margin-bottom: 66px;
+    
+}
+
+.projects-images {
+    position: absolute;
+    
+    width: 107px;
+    margin: 5px;
+    
+}
+
+.projects-name {
+    position: absolute;
+    top: 130px;
+    width: 114px;
+    margin-top: 8px;
+    
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+
+.one-line {
+    margin-top: 20px;
+}
+
+.gallery-2 {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 115px;
+}
+
+
+
+/* News */
+.news {
+    position: relative;
+    margin-top: 86px;
+    height: 227px;
+    
+    background-color: #555;
+}
+
+.news-title {
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    margin-left: -88px;
+    
+    font-family: 'Quicksand';
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
