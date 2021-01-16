@@ -26,6 +26,8 @@ p {
     background: #084215;
 }
 
+
+
 /* paysage */
 
 .paysage {
@@ -95,21 +97,6 @@ p {
 
 
 /* Befunky collage */
-.landscape-title {
-    position: absolute;
-    left: 138px;
-    top: 74px;
-    width: 262px;
-    
-    font-family: 'Quicksand';
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    
-    color: #fff;
-    
-}
-
 .befunky-collage {
     position: relative;
     height: 209px;
@@ -122,6 +109,20 @@ p {
     top: 0;
     
     background: rgba(84, 90, 46, 0.3);
+}
+
+.landscape-title {
+    position: absolute;
+    left: 138px;
+    top: 74px;
+    width: 262px;
+    
+    font-family: 'Quicksand';
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #fff;   
 }
 
 
@@ -139,14 +140,14 @@ p {
     font-family: 'Quicksand';
     font-size: 6px;
     text-transform: uppercase;
-    font-weight: 500;;
+    font-weight: 500;
+    text-align: center;
     
     background-color: #fff;
     color: #000;
     border: #fff 1px solid;
     
-    transition: background .1s linear, color .1s linear;
-    
+    transition: background .1s linear, color .1s linear;   
 }
 
 .btn:hover {
@@ -242,6 +243,14 @@ p {
     color: #084215;
 }
 
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 35px;
+    margin-bottom: 66px;  
+}
+
 .green-sqr-2 {
     position: relative;
     width: 142px;
@@ -250,21 +259,11 @@ p {
     border: 12px solid #084215;
 }
 
-.gallery {
-    display: flex;
-    justify-content: space-between;
-    
-    padding: 0 35px;
-    margin-bottom: 66px;
-    
-}
-
 .projects-images {
     position: absolute;
     
     width: 107px;
-    margin: 5px;
-    
+    margin: 5px;    
 }
 
 .projects-name {
@@ -278,7 +277,6 @@ p {
     font-family: 'Quicksand';
     font-size: 18px;
 }
-
 
 .one-line {
     margin-top: 20px;
@@ -298,6 +296,7 @@ p {
     position: relative;
     margin-top: 86px;
     height: 227px;
+    margin-bottom: 52px;
     
     background-color: #555;
 }
@@ -314,8 +313,134 @@ p {
     font-weight: normal;
 }
 
+.gallery-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.news-gallery {
+    width: 150px;
+    height: 90px;
+    left: 181px;
+    margin-top: 69px;
+}
+
+.news-text {
+    width: 146px;
+    height: 32px;
+    left: 31px;
+    top: 163px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
 
 
+
+/* About us */
+.team {
+    position: relative;
+}
+
+.palms {  
+    margin: 0 208px 52px;
+    width: 121px;
+    height: 121px;
+}
+
+.about-us {
+    position: absolute;
+    top: 51px;
+    width: 100%;
+    text-align: center;
+    
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+    color: #084215;
+}
+
+
+
+/* Subscribe */
+.subscribe {
+    width: 443px;
+    height: 95px;
+    margin: 0 auto 28px;
+    
+    background-color: #084215;
+}
+
+.subscribe-title {
+    width: 100%;
+    text-align: center;
+    padding-top: 16px;
+    
+    font-family: Quicksand;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+
+
+.email-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 71px 0;
+}
+
+.submit, .input-email {
+    font-family: Quicksand;
+    font-size: 9px;
+    font-weight: bold;
+    
+    border-style: none;
+}
+
+.submit {
+    height: 30px;
+    width: 122px;
+     
+    text-transform: uppercase;
+    background-color: #C4C4C4;
+}
+
+.input-email {
+    width: 170px;
+    padding-left: 19px; 
+}
+
+
+
+
+/* Footer */
+.footer {
+    height: 113px;
+    
+    background-color: #A8A8A8;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    padding-top: 45px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    font-family: Quicksand;
+}
+
+.text-green {
+    color: #084215;
+    font-weight: bold;
+}
 
 
 
